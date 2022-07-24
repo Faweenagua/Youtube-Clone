@@ -2,6 +2,8 @@ import React from "react";
 import { Grid } from "@mui/material";
 import youtube from "./api/youtube";
 
+import { SearchBar, VideoDetail, VideoList } from "./components";
+
 export default function App() {
   return (
     <Grid justify="center" container spacing={16}>
